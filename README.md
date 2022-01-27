@@ -11,7 +11,7 @@ This repository contains our PyTorch implementation of Unsupervised Image-to-Ima
 </br>
 </br>
 
-### **Patch Pyramid Dual Contrastive Learning Unsupervised Image Translation Network**    
+## **Patch Pyramid Dual Contrastive Learning Unsupervised Image Translation Network**   
 
 <img src='./imgs/Networks.png' align="right" width=960>   
 
