@@ -27,7 +27,17 @@ Qualitative results:
 
 <img src='./imgs/translation_results.png' align="right" width=960>
 
-#### Quantitative results:   
+Quantitative results:   
+
+| Method      |  FID $\downarrow$  | Precision $\uparrow$ | Recall $\uparrow$ | Density $\uparrow$ | Coverage $\uparrow$ |
+|-------------|:--------:|:-----------:|:--------:|:---------:|:----------:|
+| Source Only |   68.71   |   0.009   |  0.566   |  0.002  |   0.016  |
+| CycleGAN    |   45.10   |   0.767   |  0.304   |  **0.729**  |   0.782  |
+| CUT         |   42.56   |   0.668   |  0.498   |  0.592  |   **0.930**  |
+| DCLGAN      |   48.95   |   0.276   |  0.394   |  0.098  |   0.338  |
+| PPDCLUIT    |   **41.96**   |   0.167   |  **0.688**   |  0.053  |   0.340  |
+
+
 
 ### Cityscapes Clear to Foggy  
 
