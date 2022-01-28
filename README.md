@@ -29,7 +29,7 @@ Qualitative results:
 
 Quantitative results:   
 
-| Method      |  FID $\downarrow$  | Precision $\uparrow$ | Recall $\uparrow$ | Density $\uparrow$ | Coverage $\uparrow$ |
+| Method      |  FID &#8595;  | Precision &#8593; | Recall &#8593; | Density &#8593; | Coverage &#8593; |
 |-------------|:--------:|:-----------:|:--------:|:---------:|:----------:|
 | Source Only |   68.71   |   0.009   |  0.566   |  0.002  |   0.016  |
 | CycleGAN    |   45.10   |   0.767   |  0.304   |  **0.729**  |   0.782  |
@@ -43,7 +43,7 @@ Quantitative results:
 
 Quantitative results:   
 
-| Method      |  FID $\downarrow$  | Precision $\uparrow$ | Recall $\uparrow$ | Density $\uparrow$ | Coverage $\uparrow$ |
+| Method      |  FID &#8595;  | Precision &#8593; | Recall &#8593; | Density &#8593; | Coverage &#8593; |
 |-------------|:--------:|:-----------:|:--------:|:---------:|:----------:|
 | Source Only |   104.63  |   0.181   |  0.413   |  0.046  |   0.022  |
 | CycleGAN    |   17.90   |   0.763   |  0.594   |  0.828  |   0.782  |
