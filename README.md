@@ -39,7 +39,18 @@ Quantitative results:
 
 
 
-### Cityscapes Clear to Foggy  
+### BDD100K Day to Night  
+
+Quantitative results:   
+
+| Method      |  FID $\downarrow$  | Precision $\uparrow$ | Recall $\uparrow$ | Density $\uparrow$ | Coverage $\uparrow$ |
+|-------------|:--------:|:-----------:|:--------:|:---------:|:----------:|
+| Source Only |   104.63  |   0.181   |  0.413   |  0.046  |   0.022  |
+| CycleGAN    |   17.90   |   0.763   |  0.594   |  0.828  |   0.782  |
+| CUT         |   24.17   |   0.711   |  **0.673**   |  0.681  |   0.658  |
+| DCLGAN      |   21.92   |   0.784   |  0.485   |  0.965  |   0.633  |
+| PPDCLUIT    |   **14.11**   |   **0.842**   |  0.566   |  **1.265**  |   **0.806**  |
+
 
 ## Detection Results
 
